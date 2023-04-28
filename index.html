@@ -1,0 +1,1418 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--==================== UNICONS ====================-->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    />
+    <!--==================== SVG INJECT ====================-->
+    <script src="assets/js/svg-inject.min.js"></script>
+    <!--==================== SWIPER CSS ====================-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+    <!--==================== CSS ====================-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Responsive Portfolio Website</title>
+  </head>
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav_logo"
+          ><img style="width: 50px" src="assets/img/Logo JA.svg" alt=""
+        /></a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list grid">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">
+                <i class="uil uil-estate nav__icon"></i> Home
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">
+                <i class="uil uil-user nav__icon"></i> About
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">
+                <i class="uil uil-file-alt nav__icon"></i> Skills
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#services" class="nav__link">
+                <i class="uil uil-briefcase nav__icon"></i> Services
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#portifolio" class="nav__link">
+                <i class="uil uil-scenery nav__icon"></i> Portfolio
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">
+                <i class="uil uil-message nav__icon"></i>Contact me
+              </a>
+            </li>
+          </ul>
+          <i class="uil uil-times nav__close" id="nav-close"></i>
+        </div>
+        <div class="nav__btns">
+          <!-- Theme change button -->
+          <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="uil uil-apps"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home__section" id="home">
+        <div class="home__container container grid">
+          <div class="home__content grid">
+            <div class="home__social">
+              <a
+                href="https://www.linkedin.com/in/junior-almeida-b2a86970/"
+                target="_blank"
+                class="home__social-icon"
+              >
+                <i class="uil uil-linkedin-alt"></i>
+              </a>
+              <a
+                href="https://github.com/Joot4"
+                target="_blank"
+                class="home__social-icon"
+              >
+                <i class="uil uil-github"></i>
+              </a>
+              <!-- <a
+                href="https://github.com/Joot4"
+                target="_blank"
+                class="home__social-icon"
+              >
+                <i class="uil uil-github"></i>
+              </a> -->
+            </div>
+            <div class="home_img">
+              <svg
+                class="home__blob"
+                xmlns="http://www.w3.org/2000/svg"
+                enable-background="new 0 0 800 600"
+                viewBox="0 0 800 600"
+                id="startup"
+              >
+                <linearGradient
+                  id="a"
+                  x1="232.849"
+                  x2="581.688"
+                  y1="31.091"
+                  y2="531.6"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop offset="0" stop-color="#270036"></stop>
+                  <stop offset=".594" stop-color="#4f008b"></stop>
+                  <stop offset="1" stop-color="#4c24b1"></stop>
+                </linearGradient>
+                <!-- <path class="svg__icon-content"
+                  fill="url(#a)"
+                  d="M739.37 357.24C578.59 497.1 694.22 605.68 311.47 577.2c-179.19-13.35-267.94-149.55-288.49-274C-2.5 148.91 94.99 39.38 363.38 39.38c121.07 0 230.3-36.53 306.56 12.65 106.3 68.58 148.53 236.41 69.43 305.21z"
+                ></path> -->
+                <radialGradient
+                  id="b"
+                  cx="262.041"
+                  cy="678.36"
+                  r="206.646"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop offset="0" stop-color="#3e82bf"></stop>
+                  <stop offset="1" stop-color="#3e82bf" stop-opacity="0"></stop>
+                </radialGradient>
+                <path
+                  fill="url(#b)"
+                  d="M255.1 71.71h413.29V485H255.39z"
+                ></path>
+                <circle
+                  cx="692.01"
+                  cy="176.48"
+                  r="5.71"
+                  fill="#b3efff"
+                ></circle>
+                <circle
+                  cx="179.39"
+                  cy="135.38"
+                  r="5.71"
+                  fill="#b3efff"
+                ></circle>
+                <defs>
+                  <filter
+                    id="c"
+                    width="100.17"
+                    height="100.16"
+                    x="534.23"
+                    y="47.5"
+                    filterUnits="userSpaceOnUse"
+                  >
+                    <feFlood
+                      flood-color="#fff"
+                      flood-opacity="1"
+                      result="back"
+                    ></feFlood>
+                    <feBlend in="SourceGraphic" in2="back"></feBlend>
+                  </filter>
+                </defs>
+                <mask
+                  id="d"
+                  width="100.17"
+                  height="100.16"
+                  x="534.23"
+                  y="47.5"
+                  maskUnits="userSpaceOnUse"
+                >
+                  <g class="moon__icon-svg" filter="url(#c)">
+                    <linearGradient
+                      id="e"
+                      x1="184.085"
+                      x2="267.354"
+                      y1="325.452"
+                      y2="381.143"
+                      gradientTransform="scale(-1 1) rotate(44.854 128.14 -754.315)"
+                      gradientUnits="userSpaceOnUse"
+                    >
+                      <stop offset="0" stop-color="#4d4d4d"></stop>
+                      <stop offset=".293" stop-color="#898989"></stop>
+                      <stop offset=".628" stop-color="#c8c8c8"></stop>
+                      <stop offset=".873" stop-color="#f0f0f0"></stop>
+                      <stop offset="1" stop-color="#fff"></stop>
+                    </linearGradient>
+                    <path
+                      fill="url(#e)"
+                      d="M548.8 132.9c19.52 19.61 51.22 19.69 70.83.18s19.69-51.22.18-70.83-51.22-19.69-70.83-.18c-19.6 19.51-19.68 51.22-.18 70.83z"
+                      mask="url(#d)"
+                    ></path>
+                  </g>
+                </mask>
+                <linearGradient
+                  id="f"
+                  x1="184.085"
+                  x2="267.354"
+                  y1="325.452"
+                  y2="381.143"
+                  gradientTransform="scale(-1 1) rotate(44.854 128.14 -754.315)"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop offset="0" stop-color="#88cfda"></stop>
+                  <stop offset=".008" stop-color="#89cfd9"></stop>
+                  <stop offset=".478" stop-color="#c8d9bb"></stop>
+                  <stop offset=".822" stop-color="#f0dfa7"></stop>
+                  <stop offset="1" stop-color="#ffe1a0"></stop>
+                </linearGradient>
+                <path
+                  fill="url(#f)"
+                  d="M548.8 132.9c19.52 19.61 51.22 19.69 70.83.18s19.69-51.22.18-70.83-51.22-19.69-70.83-.18c-19.6 19.51-19.68 51.22-.18 70.83z"
+                ></path>
+                <linearGradient
+                  id="g"
+                  x1="254.745"
+                  x2="279.862"
+                  y1="78.292"
+                  y2="78.292"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop offset="0" stop-color="#7633ff"></stop>
+                  <stop offset=".159" stop-color="#7137ff"></stop>
+                  <stop offset=".353" stop-color="#6243ff"></stop>
+                  <stop offset=".568" stop-color="#4957ff"></stop>
+                  <stop offset=".794" stop-color="#2672ff"></stop>
+                  <stop offset="1" stop-color="#0090ff"></stop>
+                </linearGradient>
+                <circle cx="267.3" cy="78.29" r="12.56" fill="url(#g)"></circle>
+                <linearGradient
+                  id="h"
+                  x1="56.239"
+                  x2="75.077"
+                  y1="204.906"
+                  y2="204.906"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop offset="0" stop-color="#7633ff"></stop>
+                  <stop offset=".159" stop-color="#7137ff"></stop>
+                  <stop offset=".353" stop-color="#6243ff"></stop>
+                  <stop offset=".568" stop-color="#4957ff"></stop>
+                  <stop offset=".794" stop-color="#2672ff"></stop>
+                  <stop offset="1" stop-color="#0090ff"></stop>
+                </linearGradient>
+                <circle class="moonwalk__icon-svg"
+                  cx="65.66"
+                  cy="204.91"
+                  r="9.42"
+                  fill="url(#h)"
+                  opacity=".6"
+                ></circle>
+                <circle class="circle__icon-svg" cx="430.56" cy="85.14" r="5.71" fill="#125cae"></circle>
+                <path class="starlight__icon-svg"
+                  fill="#fff"
+                  d="m346.08 81.95 1.2 2.44 2.69.39-1.95 1.89.46 2.68-2.4-1.26-2.4 1.26.45-2.68-1.94-1.89 2.69-.39z"
+                ></path>
+                <path class="starlight__icon-svg"
+                  fill="#fff"
+                  d="m103.34 143.96 1.2 2.44 2.69.39-1.95 1.9.46 2.67-2.4-1.26-2.41 1.26.46-2.67-1.94-1.9 2.69-.39z"
+                  opacity=".4"
+                ></path>
+                <path
+                  fill="#fff"
+                  d="m60.52 289.54 1.2 2.44 2.69.39-1.94 1.9.45 2.67-2.4-1.26-2.4 1.26.46-2.67-1.95-1.9 2.69-.39zM744.91 240.32l1.2 2.44 2.69.39-1.94 1.9.45 2.67-2.4-1.26-2.4 1.26.46-2.67-1.95-1.9 2.69-.39zM707.19 110.1l1.2 2.44 2.69.39-1.94 1.9.46 2.67-2.41-1.26-2.4 1.26.46-2.67-1.95-1.9 2.69-.39z"
+                ></path>
+                <linearGradient
+                  id="i"
+                  x1="688.819"
+                  x2="309.556"
+                  y1="188.508"
+                  y2="417.79"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop offset="0" stop-color="#1dacff"></stop>
+                  <stop offset=".136" stop-color="#1ca9fb"></stop>
+                  <stop offset=".274" stop-color="#1b9fef"></stop>
+                  <stop offset=".414" stop-color="#188eda"></stop>
+                  <stop offset=".555" stop-color="#1476bd"></stop>
+                  <stop offset=".696" stop-color="#0f5898"></stop>
+                  <stop offset=".839" stop-color="#08326b"></stop>
+                  <stop offset=".979" stop-color="#010737"></stop>
+                  <stop offset="1" stop-color="#00002e"></stop>
+                </linearGradient>
+                <path class="guy__icon-svg"
+                  fill="url(#i)"
+                  d="m312.44 366.97 323.68-162.94-286.5 238.61"
+                ></path>
+                <linearGradient
+                  id="j"
+                  x1="648.746"
+                  x2="431.533"
+                  y1="191.323"
+                  y2="322.342"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop offset="0" stop-color="#1dacff"></stop>
+                  <stop offset=".136" stop-color="#1ca9fb"></stop>
+                  <stop offset=".274" stop-color="#1b9fef"></stop>
+                  <stop offset=".414" stop-color="#188eda"></stop>
+                  <stop offset=".555" stop-color="#1476bd"></stop>
+                  <stop offset=".696" stop-color="#0f5898"></stop>
+                  <stop offset=".839" stop-color="#08326b"></stop>
+                  <stop offset=".979" stop-color="#010737"></stop>
+                  <stop offset="1" stop-color="#00002e"></stop>
+                </linearGradient>
+                <path class="guy__icon-svg"
+                  fill="url(#j)"
+                  d="m488.29 300.45 147.83-96.42-178.28 90.1z"
+                ></path>
+                <linearGradient
+                  id="k"
+                  x1="10.566"
+                  x2="214.295"
+                  y1="511.44"
+                  y2="511.44"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop offset="0" stop-color="#88aeda"></stop>
+                  <stop offset=".042" stop-color="#8eadd4"></stop>
+                  <stop offset=".496" stop-color="#cba895"></stop>
+                  <stop offset=".828" stop-color="#f1a56d"></stop>
+                  <stop offset="1" stop-color="#ffa45e"></stop>
+                </linearGradient>
+                <path class="fireout__icon-svg guy__icon-svg"
+                  fill="url(#k)"
+                  d="M183.4 539.92c-15.04 11.18-50.63 21.43-50.63 21.43s2.85-1.63 7.53-3.94c4.68-2.32 8.56-7.22 8.56-7.22s-9.56 5.83-22.85 10.32c-13.28 4.49-31.05 7.75-31.05 7.75s3.61-1.75 9.94-5.89c6.34-4.14 17.23-11.35 17.23-11.35s-27.18 14.89-68.73 17.75c-16.26 1.12-42.85 6.94-42.85 6.94s12.85-11.08 18.96-17.47c9.71-10.14 21-26.45 29.85-36.75 13.18-15.34 40.24-42.32 40.24-42.32l-5.44 2.44c-5.44 2.44-12.02 5.06-12.02 5.06s27.21-25.94 47.46-33.76c22.82-8.81 53.27-4.79 53.27-4.79s2.68 13.02 12.64 29.88c10.3 17.42 18.77 24.52 18.77 24.52s-7.84 20.28-30.88 37.4z"
+                ></path>
+                <linearGradient
+                  id="l"
+                  x1="57.134"
+                  x2="210.242"
+                  y1="503.452"
+                  y2="503.452"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop offset="0" stop-color="#88cfda"></stop>
+                  <stop offset=".042" stop-color="#8ed0d4"></stop>
+                  <stop offset=".496" stop-color="#cbd995"></stop>
+                  <stop offset=".828" stop-color="#f1df6d"></stop>
+                  <stop offset="1" stop-color="#ffe15e"></stop>
+                </linearGradient>
+                <path class="innerFire__icon-svg guy__icon-svg"
+                  fill="url(#l)"
+                  d="M187.03 524.86c-11.3 8.4-38.05 16.11-38.05 16.11s2.14-1.22 5.66-2.96 6.43-5.43 6.43-5.43-7.19 4.38-17.17 7.75-23.33 5.83-23.33 5.83 2.71-1.32 7.47-4.43c4.76-3.11 12.95-8.53 12.95-8.53s-20.43 11.19-51.66 13.34c-12.22.84-32.2 5.21-32.2 5.21s9.66-8.33 14.25-13.13c7.3-7.62 15.78-19.87 22.44-27.62 9.91-11.53 30.24-31.8 30.24-31.8l-4.09 1.83c-4.09 1.83-9.04 3.8-9.04 3.8s20.45-19.49 35.67-25.37c17.15-6.62 40.04-3.6 40.04-3.6s2.01 9.79 9.5 22.45c7.74 13.1 14.11 18.42 14.11 18.42s-5.91 15.26-23.22 28.13z"
+                ></path>
+                <linearGradient
+                  id="m"
+                  x1="365.527"
+                  x2="182.245"
+                  y1="453.813"
+                  y2="215.064"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop offset="0" stop-color="#a1baff"></stop>
+                  <stop offset=".488" stop-color="#fff"></stop>
+                </linearGradient>
+                <path class="guy__icon-svg"
+                  fill="url(#m)"
+                  d="M204.15 418.8c1.72-2.59 49.7-54.01 108.02-84.18 58.32-30.17 84.75-32.75 84.75-32.75s14.65 10.34 29.3 37.35 18.96 37.92 17.81 41.37c-1.15 3.45-58.03 64.93-120.38 90.5-62.34 25.57-69.52 27.01-69.52 27.01s-7.76-.86-16.66-14.36-29.59-47.12-31.89-54.59-1.43-10.35-1.43-10.35z"
+                ></path>
+                <linearGradient
+                  id="n"
+                  x1="477.637"
+                  x2="442.291"
+                  y1="354.36"
+                  y2="296.689"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop offset="0" stop-color="#3d00ba"></stop>
+                  <stop offset=".745" stop-color="#ce00ff"></stop>
+                </linearGradient>
+                <path class="guy__icon-svg"
+                  fill="url(#n)"
+                  d="M491.15 298.71c-3.45-4.88-8.04-5.75-35.91-5.46-27.87.29-56.88 9.48-56.88 9.48l.33.54c4.32 3.61 15.92 14.54 27.54 35.95 11.03 20.33 16.19 31.54 17.59 37.31l1.09 1.76 4.88-4.6c4.88-4.6 24.99-34.19 32.46-47.98 7.47-13.78 12.35-22.12 8.9-27z"
+                ></path>
+                <linearGradient
+                  id="o"
+                  x1="224.546"
+                  x2="341.474"
+                  y1="513.606"
+                  y2="513.606"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop offset="0" stop-color="#3d00ba"></stop>
+                  <stop offset=".745" stop-color="#ce00ff"></stop>
+                </linearGradient>
+                <path class="guy__icon-svg"
+                  fill="url(#o)"
+                  d="m256.44 497.23-31.89 67.23s31.31-12.93 67.8-37.06c36.49-24.13 39.36-27.87 39.36-27.87l9.77-36.77c-.01 0-58.61 27-85.04 34.47z"
+                ></path>
+                <linearGradient
+                  id="p"
+                  x1="251.133"
+                  x2="181.034"
+                  y1="402.142"
+                  y2="374.561"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop offset="0" stop-color="#3d00ba"></stop>
+                  <stop offset=".745" stop-color="#ce00ff"></stop>
+                </linearGradient>
+                <path class="guy__icon-svg"
+                  fill="url(#p)"
+                  d="m275.68 357.03-33.61-6.89s-29.59 12.35-54.3 28.44c-24.71 16.09-48.84 34.19-48.84 34.19l67.51 3.45c.01-.01 47.7-48.85 69.24-59.19z"
+                ></path>
+                <linearGradient
+                  id="q"
+                  x1="239.995"
+                  x2="191.732"
+                  y1="505.02"
+                  y2="431.764"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop offset="0" stop-color="#270036"></stop>
+                  <stop offset=".438" stop-color="#4f008b"></stop>
+                  <stop offset="1" stop-color="#4c24b1"></stop>
+                </linearGradient>
+                <path class="guy__icon-svg"
+                  fill="url(#q)"
+                  d="M237.47 483.73c-8.91-13.5-29.59-47.12-31.89-54.59-.63-2.03-1.01-3.71-1.25-5.1l-17.42 12.85s-1.15 12.64 14.36 36.2c15.51 23.56 23.56 31.6 27.29 31.31 3.73-.29 19.82-8.62 19.82-8.62l-.33-.54c-2.91-2.03-6.63-5.53-10.58-11.51z"
+                ></path>
+                <linearGradient
+                  id="r"
+                  x1="183.308"
+                  x2="217.782"
+                  y1="444.933"
+                  y2="505.261"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop offset="0" stop-color="#7633ff"></stop>
+                  <stop offset=".159" stop-color="#7137ff"></stop>
+                  <stop offset=".353" stop-color="#6243ff"></stop>
+                  <stop offset=".568" stop-color="#4957ff"></stop>
+                  <stop offset=".794" stop-color="#2672ff"></stop>
+                  <stop offset="1" stop-color="#0090ff"></stop>
+                </linearGradient>
+                <path class="guy__icon-svg"
+                  fill="url(#r)"
+                  d="m188.06 444.37-5.17 3.73s-.57 8.04 11.2 27.58c11.78 19.54 18.96 26.72 22.12 27.01s5.46-2.59 5.46-2.59-27.58-30.74-33.61-55.73z"
+                ></path>
+                <linearGradient
+                  id="s"
+                  x1="309.4"
+                  x2="159.441"
+                  y1="397.327"
+                  y2="477.477"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop offset="0" stop-color="#7633ff"></stop>
+                  <stop offset=".132" stop-color="#6342ff"></stop>
+                  <stop offset=".534" stop-color="#2e6cff"></stop>
+                  <stop offset=".835" stop-color="#0d86ff"></stop>
+                  <stop offset="1" stop-color="#0090ff"></stop>
+                </linearGradient>
+                <path class="guy__icon-svg"
+                  fill="url(#s)"
+                  d="m296.66 401.85-25.86 8.91s-40.09 22.24-53.15 30.17c-16.38 9.94-64.35 41.66-64.35 41.66l2.01 4.31 118.94-70.96 26.14-10.06-3.73-4.03z"
+                ></path>
+                <linearGradient
+                  id="t"
+                  x1="155.308"
+                  x2="300.391"
+                  y1="446.38"
+                  y2="446.38"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop offset="0" stop-color="#3d00ba"></stop>
+                  <stop offset=".745" stop-color="#ce00ff"></stop>
+                </linearGradient>
+                <path class="guy__icon-svg"
+                  fill="url(#t)"
+                  d="m155.31 486.89 65.5-30.17s25.16-14.38 33.33-19.54c11.81-7.45 46.25-31.31 46.25-31.31l-27.29 10.34-117.79 70.68z"
+                ></path>
+                <path class="guy__icon-svg"
+                  d="m414.45 158.51 6.32-2.59s1.59.73 3.16 4.31c2.01 4.6 2.3 7.76 2.3 7.76l-6.32 3.45c-.01 0-3.17-8.62-5.46-12.93z"
+                ></path>
+                <linearGradient
+                  id="u"
+                  x1="331.418"
+                  x2="421.176"
+                  y1="186.667"
+                  y2="186.667"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop offset="0" stop-color="#7633ff"></stop>
+                  <stop offset=".159" stop-color="#7137ff"></stop>
+                  <stop offset=".353" stop-color="#6243ff"></stop>
+                  <stop offset=".568" stop-color="#4957ff"></stop>
+                  <stop offset=".794" stop-color="#2672ff"></stop>
+                  <stop offset="1" stop-color="#0090ff"></stop>
+                </linearGradient>
+                <path class="guy__icon-svg"
+                  fill="url(#u)"
+                  d="m356.41 215.4 64.64-39.07s.77-6.13-1.53-11.49-4.98-6.9-4.98-6.9l-83.12 37.64"
+                ></path>
+                <linearGradient
+                  id="v"
+                  x1="318.639"
+                  x2="363.456"
+                  y1="330.106"
+                  y2="184.162"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop offset="0" stop-color="#7633ff"></stop>
+                  <stop offset=".111" stop-color="#6640ff"></stop>
+                  <stop offset=".524" stop-color="#2f6bff"></stop>
+                  <stop offset=".833" stop-color="#0d86ff"></stop>
+                  <stop offset="1" stop-color="#0090ff"></stop>
+                </linearGradient>
+                <path class="guy__icon-svg"
+                  fill="url(#v)"
+                  d="M327.2 195.38s-12.45 13.69-15.32 28.63-2.59 39.93-3.45 48.27c-.86 8.33-5.17 23.85-7.76 31.03s-3.45 17.24-3.45 17.24 18.1 2.01 38.21-.29 27.29-4.88 27.29-4.88-1.15-23.56-3.26-31.22-2.68-10.34-2.68-10.34.77-2.87 2.68-8.04c1.92-5.17 11.49-23.56 9.96-30.64-1.53-7.09-5.36-17.43-8.62-20.88s-4.6-4.02-4.6-4.02-7.47-10.73-12.64-15.71c-5.17-4.98-11.49-4.41-11.49-4.41l-4.87 5.26z"
+                ></path>
+                <linearGradient
+                  id="w"
+                  x1="332.004"
+                  x2="359.477"
+                  y1="255.825"
+                  y2="255.825"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop offset="0" stop-color="#70b"></stop>
+                  <stop offset="1" stop-color="#00008b"></stop>
+                  <stop offset="1"></stop>
+                </linearGradient>
+                <path class="guy__icon-svg"
+                  fill="url(#w)"
+                  d="M332 241.08s3.35 9.77 8.91 16.28c5.55 6.51 16.95 13.22 16.95 13.22l1.62-4.8-26.71-24.69"
+                  opacity=".5"
+                ></path>
+                <linearGradient
+                  id="x"
+                  x1="327.269"
+                  x2="353.53"
+                  y1="198.294"
+                  y2="198.294"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop offset="0" stop-color="#7633ff"></stop>
+                  <stop offset=".159" stop-color="#7137ff"></stop>
+                  <stop offset=".353" stop-color="#6243ff"></stop>
+                  <stop offset=".568" stop-color="#4957ff"></stop>
+                  <stop offset=".794" stop-color="#2672ff"></stop>
+                  <stop offset="1" stop-color="#0090ff"></stop>
+                </linearGradient>
+                <path class="guy__icon-svg"
+                  fill="url(#x)"
+                  d="M353.53 206.49c-2.64-3.58-6.74-8.88-9.95-11.97-5.17-4.98-11.49-4.41-11.49-4.41l-4.82 5.2c3.46 2.12 12 3.69 17.46 6.87 3.32 1.93 6.35 3.33 8.8 4.31z"
+                ></path>
+                <linearGradient
+                  id="y"
+                  x1="329.982"
+                  x2="355.838"
+                  y1="282.24"
+                  y2="282.24"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop offset="0" stop-color="#70b"></stop>
+                  <stop offset="1" stop-color="#00008b"></stop>
+                  <stop offset="1"></stop>
+                </linearGradient>
+                <path class="guy__icon-svg"
+                  fill="url(#y)"
+                  d="M330.56 281.86s6.13-.19 14.94-2.3c8.81-2.11 10.34-3.45 10.34-3.45l-1.92 7.85s-4.41 3.06-10.73 3.64c-6.32.57-13.22.77-13.22.77l.59-6.51z"
+                ></path>
+                <path class="guy__icon-svg"
+                  d="M302.98 320.93s1.72 9.19 7.66 12.64 11.68 6.13 11.68 6.13l27.2 20.69-43.09 17.43s5.55 13.02 10.15 19.54c4.6 6.51 7.85 9.58 7.85 9s27.2-13.22 41.75-18.77c14.56-5.55 21.83-8.81 24.52-14.36 2.68-5.55-3.06-11.87-5.75-16.85-2.68-4.98-20.88-30.64-24.13-34.28s-5.94-4.79-5.94-4.79-29.88 5.73-51.9 3.62z"
+                ></path>
+                <linearGradient
+                  id="z"
+                  x1="281.142"
+                  x2="313.319"
+                  y1="405.107"
+                  y2="405.107"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop offset="0" stop-color="#270036"></stop>
+                  <stop offset=".594" stop-color="#4f008b"></stop>
+                  <stop offset="1" stop-color="#4c24b1"></stop>
+                </linearGradient>
+                <path class="guy__icon-svg"
+                  fill="url(#z)"
+                  d="m306.42 377.81-11.68-.19-13.6 6.13 5.75 13.41 2.68-1.72s1.34 12.83 5.17 21.45 12.26 15.9 14.17 15.71c1.92-.19 3.45-3.26 3.45-3.26s-6.7-11.3-5.36-17.62c1.34-6.32 4.21-16.47 4.21-16.47l2.11-2.3c0-.01-6.51-11.88-6.9-15.14z"
+                ></path>
+                <path class="guy__icon-svg"
+                  fill="#fff"
+                  d="m306.42 377.81-8.82-.14c.44 2.17 1.24 5.53 2.12 6.66 1.2 1.55 8.26 4.02 11.91 10.46l1.69-1.84c0-.01-6.51-11.88-6.9-15.14z"
+                ></path>
+                <path class="guy__icon-svg"
+                  d="M308.91 432.59c.52-.05 1.01-.32 1.45-.67-3.67-2.41-7.53-6.91-11.22-11.78-5.36-7.09-5.75-21.64-6.51-24.71-.64-2.55-4.59-11.33-5.9-14.21l-5.59 2.52 5.75 13.41 2.68-1.72s1.34 12.83 5.17 21.45 12.26 15.9 14.17 15.71zM340.18 190.69s-.57-4.88-.86-6.9c-.29-2.01.86-12.35 6.46-16.52s15.37-4.6 21.26-1.72c5.89 2.87 11.2 6.18 12.35 8.19 1.15 2.01 1.72 5.75 1.29 6.9s-1.15 1.15-1.15 1.15l-6.03-5.03s-4.45 4.6-4.6 5.75c-.14 1.15-1.58 7.61-1.58 7.61s-2.73-.14-2.73-.57-2.73-8.04-4.74-7.76c-2.01.29-4.69-.29-5.89 4.31-.34 1.32-1.01 4.6-1.01 4.6l-8.91 3.59-3.86-3.6z"
+                ></path>
+                <linearGradient
+                  id="A"
+                  x1="344.059"
+                  x2="378.917"
+                  y1="194.497"
+                  y2="194.497"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop offset="0" stop-color="#a1baff"></stop>
+                  <stop offset=".488" stop-color="#fff"></stop>
+                </linearGradient>
+                <path class="guy__icon-svg"
+                  fill="url(#A)"
+                  d="M373.51 176.76s-4.45 4.6-4.6 5.75c-.14 1.15-1.58 7.61-1.58 7.61s-2.73-.14-2.73-.57-2.73-8.04-4.74-7.76c-2.01.29-4.69-.29-5.89 4.31-.34 1.32-1.01 4.6-1.01 4.6l-8.91 3.59 11.78 15.85 2.3-.96s9.38 3.16 10.25 3.06c.86-.1 1.82-4.12 1.82-4.5 0-.38 1.63-.77 2.3-.96.67-.19-.19-1.63-.19-1.63l1.63-.29.57-3.45s1.24.57 1.63.57c.38 0 1.92-.67 1.92-.67l-1.53-10.92 1.72-1.63.67-7.28-.17-.38-5.24-4.34z"
+                ></path>
+                <linearGradient
+                  id="B"
+                  x1="331.989"
+                  x2="422.49"
+                  y1="255.774"
+                  y2="255.774"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop offset="0" stop-color="#7633ff"></stop>
+                  <stop offset=".159" stop-color="#7137ff"></stop>
+                  <stop offset=".353" stop-color="#6243ff"></stop>
+                  <stop offset=".568" stop-color="#4957ff"></stop>
+                  <stop offset=".794" stop-color="#2672ff"></stop>
+                  <stop offset="1" stop-color="#0090ff"></stop>
+                </linearGradient>
+                <path class="guy__icon-svg guy__icon-svg"
+                  fill="url(#B)"
+                  d="M332.09 240.1s2.49 9.19 24.9 24.32c22.41 15.13 37.35 24.13 42.52 27.01 5.17 2.87 13.02 9.96 13.02 9.96s4.41-4.98 6.89-9.58c2.49-4.6 3.06-6.9 3.06-6.9s-27.58-18.96-35.82-25.47c-8.24-6.51-19.34-19.73-20.49-22.41-1.15-2.68-1.34-20.49-9.58-25.09-8.24-4.6-17.43 0-21.45 9.77s-3.05 18.39-3.05 18.39z"
+                ></path>
+                <path class="guy__icon-svg"
+                  d="m415.16 297.71 6.9 2.87s2.73-2.44 4.17-6.61 2.01-6.03 2.01-6.03l-5.75-3.02s-4.74 10.63-7.33 12.79z"
+                ></path>
+                <linearGradient
+                  id="C"
+                  x1="424.357"
+                  x2="459.12"
+                  y1="293.971"
+                  y2="293.971"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop offset="0" stop-color="#a1baff"></stop>
+                  <stop offset=".488" stop-color="#fff"></stop>
+                </linearGradient>
+                <path class="guy__icon-svg"
+                  fill="url(#C)"
+                  d="M428.24 289.09s9.77-1.15 12.21-1.15c2.44 0 7.18 1.44 11.35 3.3s7.33 4.74 7.33 5.46-.72 1.87-3.02 1.44-11.64-2.44-13.22-2.3c-1.58.14-9.19 4.17-11.64 4.17s-6.9-1.72-6.9-1.72 3.89-7.05 3.89-9.2z"
+                ></path>
+                <linearGradient
+                  id="D"
+                  x1="420.766"
+                  x2="450.474"
+                  y1="154.005"
+                  y2="154.005"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop offset="0" stop-color="#a1baff"></stop>
+                  <stop offset=".488" stop-color="#a1baff"></stop>
+                </linearGradient>
+                <path class="guy__icon-svg"
+                  fill="url(#D)"
+                  d="M420.77 155.93s4.6-2.2 7.09-3.54 8.04-4.21 12.26-5.94c4.21-1.72 9.77-4.79 10.34-3.26s-10.92 8.24-10.92 8.24 3.83 4.6 3.83 5.36c0 .77-4.02 7.47-4.02 7.47s-3.15 1.14-4.21.96c-1.06-.18-3.64-2.3-3.64-2.3l-5.75 1.72s-3.07-7.09-4.98-8.71z"
+                ></path>
+                <circle  class="starlight__icon-svg" cx="234.66" cy="122.44" r="1.98" fill="#fff"></circle>
+                <path
+                  fill="#fff"
+                  d="M306.51 181.82c0 .54-.44.98-.98.98s-.98-.44-.98-.98.44-.98.98-.98.98.44.98.98zM190.14 198.54a2.67 2.67 0 1 1-5.339.001 2.67 2.67 0 0 1 5.339-.001zM118.33 186.11a2.055 2.055 0 1 1-4.11 0c0-1.14.92-2.06 2.06-2.06 1.13.01 2.05.93 2.05 2.06zM297.84 127.68c0 1.03-.84 1.87-1.87 1.87-1.03 0-1.87-.84-1.87-1.87 0-1.03.84-1.87 1.87-1.87 1.04 0 1.87.84 1.87 1.87z"
+                ></path>
+                <circle cx="653.98" cy="107.11" r="2.45" fill="#fff"></circle>
+                <path
+                  fill="#fff"
+                  d="M742.98 180.67c0 .67-.54 1.21-1.21 1.21-.67 0-1.21-.54-1.21-1.21 0-.67.54-1.21 1.21-1.21.67 0 1.21.54 1.21 1.21zM598.82 201.38c0 1.83-1.48 3.31-3.31 3.31s-3.31-1.48-3.31-3.31 1.48-3.31 3.31-3.31 3.31 1.48 3.31 3.31zM509.87 185.98c0 1.41-1.14 2.55-2.55 2.55s-2.55-1.14-2.55-2.55 1.14-2.55 2.55-2.55a2.56 2.56 0 0 1 2.55 2.55zM732.25 113.6c0 1.28-1.04 2.32-2.32 2.32-1.28 0-2.32-1.04-2.32-2.32 0-1.28 1.04-2.32 2.32-2.32 1.28 0 2.32 1.04 2.32 2.32z"
+                ></path>
+                <circle  class="starlight__icon-svg" cx="546.93" cy="401.86" r="2.45" fill="#fff"></circle>
+                <path
+                  fill="#fff"
+                  d="M635.94 475.42c0 .67-.54 1.21-1.21 1.21-.67 0-1.21-.54-1.21-1.21 0-.67.54-1.21 1.21-1.21.67-.01 1.21.54 1.21 1.21zM491.78 496.13c0 1.83-1.48 3.31-3.31 3.31s-3.31-1.48-3.31-3.31 1.48-3.31 3.31-3.31 3.31 1.48 3.31 3.31zM402.83 480.73c0 1.41-1.14 2.55-2.55 2.55s-2.55-1.14-2.55-2.55 1.14-2.55 2.55-2.55 2.55 1.14 2.55 2.55zM625.21 408.35c0 1.28-1.04 2.32-2.32 2.32-1.28 0-2.32-1.04-2.32-2.32 0-1.28 1.04-2.32 2.32-2.32 1.28 0 2.32 1.04 2.32 2.32z"
+                ></path>
+                <circle class="starlight__icon-svg" cx="446.93" cy="515.29" r="1.33" fill="#fff"></circle>
+                <path
+                  fill="#fff"
+                  d="M495.32 555.29a.66.66 0 1 1-1.32 0c0-.37.29-.66.66-.66.37 0 .66.29.66.66zM416.94 566.55a1.799 1.799 0 1 1-3.6 0c0-1 .81-1.8 1.8-1.8s1.8.8 1.8 1.8zM368.57 558.17c0 .76-.62 1.38-1.38 1.38-.76 0-1.38-.62-1.38-1.38 0-.76.62-1.38 1.38-1.38.76 0 1.38.62 1.38 1.38zM489.49 518.82c0 .7-.56 1.26-1.26 1.26s-1.26-.56-1.26-1.26.56-1.26 1.26-1.26c.69 0 1.26.56 1.26 1.26z"
+                ></path>
+                <circle class="starlight__icon-svg" cx="163.33" cy="296.44" r="1.33" fill="#fff"></circle>
+                <path
+                  fill="#fff"
+                  d="M211.73 336.44a.66.66 0 1 1-1.319.001.66.66 0 0 1 1.319-.001zM133.34 347.7a1.799 1.799 0 1 1-3.6 0 1.799 1.799 0 1 1 3.6 0zM84.98 339.33c0 .76-.62 1.38-1.38 1.38-.76 0-1.38-.62-1.38-1.38 0-.76.62-1.38 1.38-1.38.76 0 1.38.61 1.38 1.38zM205.89 299.97c0 .7-.56 1.26-1.26 1.26s-1.26-.56-1.26-1.26.56-1.26 1.26-1.26 1.26.57 1.26 1.26z"
+                ></path>
+                <circle class="starlight__icon-svg" cx="666.86" cy="265.87" r="1.33" fill="#fff"></circle>
+                <path
+                  fill="#fff"
+                  d="M715.26 305.87c0 .36-.29.66-.66.66s-.66-.29-.66-.66c0-.36.29-.66.66-.66s.66.29.66.66zM636.87 317.13a1.799 1.799 0 1 1-3.6 0 1.799 1.799 0 1 1 3.6 0zM588.51 308.76c0 .76-.62 1.38-1.38 1.38-.76 0-1.38-.62-1.38-1.38 0-.76.62-1.38 1.38-1.38.76-.01 1.38.61 1.38 1.38zM709.42 269.4c0 .7-.56 1.26-1.26 1.26s-1.26-.56-1.26-1.26.56-1.26 1.26-1.26 1.26.57 1.26 1.26z"
+                ></path>
+                <circle class="starlight__icon-svg" cx="521.14" cy="177.68" r="1.33" fill="#fff"></circle>
+                <path
+                  fill="#fff"
+                  d="M569.54 217.68c0 .36-.29.66-.66.66s-.66-.29-.66-.66c0-.36.29-.66.66-.66s.66.29.66.66zM491.15 228.94a1.799 1.799 0 1 1-3.6 0 1.799 1.799 0 1 1 3.6 0zM442.79 220.57c0 .76-.62 1.38-1.38 1.38-.76 0-1.38-.62-1.38-1.38 0-.76.62-1.38 1.38-1.38.76-.01 1.38.61 1.38 1.38zM563.7 181.21c0 .7-.56 1.26-1.26 1.26s-1.26-.56-1.26-1.26.56-1.26 1.26-1.26 1.26.56 1.26 1.26z"
+                ></path>
+                <linearGradient
+                  id="E"
+                  x1="751.302"
+                  x2="751.304"
+                  y1="79.434"
+                  y2="79.434"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop offset="0" stop-color="#a1baff"></stop>
+                  <stop offset=".089" stop-color="#acc2ff"></stop>
+                  <stop offset=".499" stop-color="#d9e3ff"></stop>
+                  <stop offset=".816" stop-color="#f5f7ff"></stop>
+                  <stop offset="1" stop-color="#fff"></stop>
+                </linearGradient>
+                <path 
+                  class="cloud1__icon-svg"
+                  fill="url(#E)"
+                  d="M641.84 74.86c3.83 0 7.41 1.05 10.48 2.88.73-10.68 9.62-19.11 20.48-19.11 2.65 0 5.18.51 7.5 1.42 2.96-9.9 12.13-17.12 22.99-17.12 13.26 0 24 10.75 24 24 0 .34-.01.68-.03 1.01h.03c13.25 0 24 10.75 24 24 0 13.26-10.75 24-24 24-.83 0-1.65-.04-2.45-.12h-80.77c-.74.08-1.48.12-2.24.12-11.34 0-20.54-9.2-20.54-20.54.01-11.34 9.21-20.54 20.55-20.54z"
+                  opacity=".6"
+                ></path>
+                <linearGradient
+                  id="F"
+                  x1="498.192"
+                  x2="100.49"
+                  y1="104.654"
+                  y2="104.654"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop offset="0" stop-color="#a1baff"></stop>
+                  <stop offset=".089" stop-color="#acc2ff"></stop>
+                  <stop offset=".499" stop-color="#d9e3ff"></stop>
+                  <stop offset=".816" stop-color="#f5f7ff"></stop>
+                  <stop offset="1" stop-color="#fff"></stop>
+                </linearGradient>
+                <path class="cloud2__icon-svg"
+                  fill="url(#F)"
+                  d="M539.73 102.05c-2.19 0-4.25.6-6 1.65-.42-6.12-5.51-10.95-11.73-10.95-1.34 0-2.63.24-3.83.66-1.73-5.6-6.96-9.68-13.13-9.68-.46 0-.92.03-1.37.07-5.77.36-10.57 4.27-12.24 9.58-1.21-.42-2.5-.66-3.85-.66-6.22 0-11.31 4.83-11.73 10.95a11.667 11.667 0 0 0-6-1.65c-6.5 0-11.76 5.27-11.76 11.76 0 6.5 5.27 11.76 11.76 11.76.43 0 .86-.03 1.28-.07h18.06c.53.06 1.06.1 1.61.1.47 0 .94-.02 1.4-.07h25.79c.26.01.52.04.79.04s.53-.03.79-.04h18.88c.42.05.85.07 1.28.07 6.5 0 11.76-5.27 11.76-11.76s-5.27-11.76-11.76-11.76z"
+                  opacity=".3"
+                ></path>
+              </svg>
+            </div>
+            <div class="home__data">
+              <h1 class="home__title">Hi, I'm Junior</h1>
+              <h3 class="home__subtitle">Frontend Developer</h3>
+              <p class="home__description">
+                Desenvolvedor Front-end especializado em criar experiências web
+                excepcionais!
+              </p>
+              <a href="#contact" class="button ">
+              Entre em contato <i class="uil uil-message button_icon"></i>
+              </a>
+            </div>
+          </div>
+          <div class="home__scroll">
+            <a href="#about" class="home__scroll-button button--flex">
+              <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+              <span class="home__scroll-name">Scroll Down</span>
+              <i class="uil uil-arrow-down home__scroll-arrow"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== ABOUT ====================-->
+      <section class="about section" id="about">
+        <h2 class="section__title">Sobre mim</h2>
+        <span class="section__subtitle">My Introduction</span>
+
+        <div class="about__container container grid">
+          <img src="assets/img/teste.svg" onload="SVGInject(this)"  class="about__img" alt="" />
+          <div class="about__data">
+            <p class="about__description">
+              Desenvolvedor com experiência em web tecnologias e UI design e
+              motion, focando em entregas de qualidade.
+            </p>
+
+            <div class="about__info">
+              <div>
+                <span class="about__info-title"> 01+ </span>
+                <span class="about__info-name">Anos <br> de experiência</span>
+              </div>
+              <div>
+                <span class="about__info-title"> 10+ </span>
+                <span class="about__info-name"
+                  >Projetos <br />
+                  Feitos</span
+                >
+              </div>
+              <div>
+                <span class="about__info-title"> 01+ </span>
+                <span class="about__info-name"
+                  >Experiencia <br />
+                  em empresas</span
+                >
+              </div>
+            </div>
+            <div class="about__buttons">
+              <a
+                download=""
+                href="assets/pdf/Junior Almeida-cv.pdf"
+                class="button button--flex"
+              >
+                Download CV <i class="uil uil-download-alt button__icon"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== PORTFOLIO ====================-->
+      <section class="portfolio section" id="portifolio">
+        <h2 class="section__title">Portfolio</h2>
+        <span class="section__subtitle">Trabalhos Recentes</span>
+        <div class="portifolio__container container swiper-container">
+          <div class="swiper-wrapper">
+
+          
+          <!--==================== PORTFOLIO 1 ====================-->
+          <div class="portifolio__content grid swiper-slide">
+            <img src="assets/img/portifolio1.svg" alt="" class="portifolio__img">
+            <div class="portfolio__data">
+              <h3 class="portfolio__title">Spider-Man</h3>
+              <p class="portifolio__description"> Implementation of a PS4 Spider-man UI Concept.</p>
+              <a href="https://spiderman-miles-morales-ps5.netlify.app/" target="_blank" class="button button--flex button--small portifolio__button">
+                Visualizar Projeto
+                <i class="uil uil-arrow-right button__icon"></i>
+              </a>
+            </div>
+          </div>
+          <!--==================== PORTFOLIO 2 ====================-->
+          <div class="portifolio__content grid swiper-slide">
+            <img src="assets/img/pokedex.svg" alt="" class="portifolio__img">
+            <div class="portfolio__data">
+              <h3 class="portfolio__title">Pókemon Pokedex</h3>
+              <p class="portifolio__description"> Search for Pokémon by name or using Pokédex number.</p>
+              <a href="" target="_blank" class="button button--flex button--small portifolio__button">
+                Visualizar Projeto
+                <i class="uil uil-arrow-right button__icon"></i>
+              </a>
+            </div>
+          </div>
+          <!--==================== PORTFOLIO 3 ====================-->
+          <div class="portifolio__content grid swiper-slide">
+            <img src="assets/img/nubank.svg" alt="" class="portifolio__img">
+            <div class="portfolio__data">
+              <h3 class="portfolio__title">Nubank</h3>
+              <p class="portifolio__description"> Implementation of an alternative version of Nubank.</p>
+              <a href="https://nusite.netlify.app/" target="_blank" class="button button--flex button--small portifolio__button">
+                Visualizar Projeto
+                <i class="uil uil-arrow-right button__icon"></i>
+              </a>
+            </div>
+          </div>
+          <!--==================== PORTFOLIO 4 ====================-->
+          <div class="portifolio__content grid swiper-slide">
+            <img src="assets/img/blog.svg" alt="" class="portifolio__img">
+            <div class="portfolio__data">
+              <h3 class="portfolio__title">Blog</h3>
+              <p class="portifolio__description"> Implementation of a modern Blog application and API requests, made in React.js.</p>
+              <a href="https://blognewconcept.netlify.app/" target="_blank" class="button button--flex button--small portifolio__button">
+                Visualizar Projeto
+                <i class="uil uil-arrow-right button__icon"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+          <div class="swiper-button-next">
+            <i class="uil uil-angle-right-b swiper-portifolio-icon"></i>
+          </div>
+
+          <div class="swiper-button-prev">
+            <i class="uil uil-angle-left-b swiper-portifolio-icon"></i>
+          </div>
+
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+
+        <!--==================== SERVICES ====================-->
+        <section class="services section" id="services">
+          <h2 class="section__title">Services</h2>
+          <span class="section__subtitle">O que eu ofereço</span>
+  
+          <div class="services__container container grid">
+            <!--==================== SERVICES 1 ====================-->
+            <div class="services__content">
+              <div>
+                  <i class="uil uil-arrow services__icon"></i>
+                  <h3 class="services__title">
+                    Frontend <br />
+                    Developer
+                  </h3>
+              </div>
+              <span
+                class="button button--flex button--small button--link services__button"
+              >
+                View More
+                <i class="uil uil-arrow-right button__icon "></i>
+              </span>
+              <div class="services__modal">
+                <div class="services__modal-content">
+                  <h4 class="services__modal-title">
+                    Gestão da <br />
+                    Tecnologia da Informação
+                  </h4>
+                  <i class="uil uil-times services__modal-close"></i>
+  
+                  <ul class="services__modal-services grid">
+                    <li class="services__modal-service">
+                      <i class="uil uil-check-circle services__modal-icon"></i>
+                      <p>Construção de Interface</p>
+                    </li>
+                    <li class="services__modal-service">
+                      <i class="uil uil-check-circle services__modal-icon"></i>
+                      <p>Implementação do Design</p>
+                    </li>
+            
+                    <li class="services__modal-service">
+                      <i class="uil uil-check-circle services__modal-icon"></i>
+                      <p>Correção de erros visuais</p>
+                    </li>
+                  
+                    <li class="services__modal-service">
+                      <i class="uil uil-check-circle services__modal-icon"></i>
+                      <p>Monitorar a experiência do usuário</p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!--==================== SERVICES 2 ====================-->
+            <div class="services__content">
+              <div>
+                  <i class="uil uil-web-grid services__icon"></i>
+                  <h3 class="services__title">
+                    Ui/Ux <br />
+                    Designer
+                  </h3>
+              </div>
+              <span
+                class="button button--flex button--small button--link services__button"
+              >
+                View More
+                <i class="uil uil-arrow-right button__icon"></i>
+              </span>
+              <div class="services__modal">
+                <div class="services__modal-content">
+                  <h4 class="services__modal-title">
+                    Ui/Ux <br />
+                    Designer
+                  </h4>
+                  <i class="uil uil-times services__modal-close"></i>
+  
+                  <ul class="services__modal-services grid">
+                    <li class="services__modal-service">
+                      <i class="uil uil-check-circle services__modal-icon"></i>
+                      <p>Pesquisa de Usuário</p>
+                    </li>
+                    <li class="services__modal-service">
+                      <i class="uil uil-check-circle services__modal-icon"></i>
+                      <p>Prototipação</p>
+                    </li>
+            
+                    <li class="services__modal-service">
+                      <i class="uil uil-check-circle services__modal-icon"></i>
+                      <p>Designer de Interface</p>
+                    </li>
+                  
+                    <li class="services__modal-service">
+                      <i class="uil uil-check-circle services__modal-icon"></i>
+                      <p>Teste de Usabilidade</p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!--==================== SERVICES 3 ====================-->
+            <div class="services__content">
+              <div>
+                  <i class="uil uil-chart-line services__icon"></i>
+                  <h3 class="services__title">
+                    Gestão de <br />
+                    Tráfego
+                  </h3>
+              </div>
+              <span
+                class="button button--flex button--small button--link services__button"
+              >
+                View More
+                <i class="uil uil-arrow-right button__icon"></i>
+              </span>
+              <div class="services__modal">
+                <div class="services__modal-content">
+                  <h4 class="services__modal-title">
+                    Gestão de <br />
+                    Tráfego
+                  </h4>
+                  <i class="uil uil-times services__modal-close"></i>
+  
+                  <ul class="services__modal-services grid">
+                    <li class="services__modal-service">
+                      <i class="uil uil-check-circle services__modal-icon"></i>
+                      <p>Atrair Tráfego Qualificado</p>
+                    </li>
+                    <li class="services__modal-service">
+                      <i class="uil uil-check-circle services__modal-icon"></i>
+                      <p>Gerar Leads e Vendas</p>
+                    </li>
+            
+                    <li class="services__modal-service">
+                      <i class="uil uil-check-circle services__modal-icon"></i>
+                      <p>Aumentar Visibilidade</p>
+                    </li>
+                  
+                    <li class="services__modal-service">
+                      <i class="uil uil-check-circle services__modal-icon"></i>
+                      <p>Analisar Resultados</p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+        </section>
+
+      <!--==================== SKILLS ====================-->
+      <section class="skills section" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <span class="section__subtitle"> My Tecnhical level</span>
+        <div class="skills__container container grid">
+          <div>
+            <!-- Skills 1-->
+            <div class="skills__content skills__open">
+              <div class="skills__header">
+                <i class="uil uil-brackets-curly skills__icon"></i>
+                <div>
+                  <h1 class="skils__title">Frontend Developer</h1>
+                  <span class="skills__subtitle">More than 1 year</span>
+                </div>
+                <i class="uil uil-angle-down skills__arrow"></i>
+              </div>
+              <div class="skills__list grid">
+                <div class="skills__data">
+                  <div class="skills_titles">
+                    <h3 class="skills__name">HTML</h3>
+                    <span class="skills__number">90%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__html"></span>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <div class="skills_titles">
+                    <h3 class="skills__name">CSS</h3>
+                    <span class="skills__number">75%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__css"></span>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <div class="skills_titles">
+                    <h3 class="skills__name">JavaScript</h3>
+                    <span class="skills__number">60%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__js"></span>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <div class="skills_titles">
+                    <h3 class="skills__name">React</h3>
+                    <span class="skills__number">55%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__react"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+            <!-- Skills 2 -->
+          <div>
+            <div class="skills__content skills__close">
+              <div class="skills__header">
+                <i class="uil uil-swatchbook skills__icon"></i>
+                <div>
+                  <h1 class="skils__titles">UI Designer</h1>
+                  <span class="skills__subtitle">More than 3 year</span>
+                </div>
+                <i class="uil uil-angle-down skills__arrow"></i>
+              </div>
+              <div class="skills__list grid">
+                <div class="skills__data">
+                  <div class="skills_titles">
+                    <h3 class="skills__name">Figma</h3>
+                    <span class="skills__number">85%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__figma"></span>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <div class="skills_titles">
+                    <h3 class="skills__name">Photoshop</h3>
+                    <span class="skills__number">75%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__photoshop"></span>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <div class="skills_titles">
+                    <h3 class="skills__name">UI motion</h3>
+                    <span class="skills__number">60%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__ui"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </section>
+
+      <!--==================== QUALIFICATION ====================-->
+      <section class="qualification section">
+        <h2 class="section__title">Qualification</h2>
+        <span class="section__subtitle">Minha trajetória</span>
+
+        <div class="qualification__container container">
+          <div class="qualification__tabs">
+            <div
+              class="qualification__button button--flex qualification__active"
+              data-target="#education"
+            >
+              <i class="uil uil-graduation-cap qualification__icon"></i>
+              Education
+            </div>
+
+            <div class="qualification__button button--flex" data-target="#work">
+              <i class="uil uil-briefcase qualification__icon"></i>
+              Works
+            </div>
+          </div>
+          <div class="qualification__sections">
+            <!--==================== QUALIFICATION CONTENT 1 ====================-->
+            <div
+              class="qualification__content qualification__active"
+              data-content
+              id="education"
+            >
+              <!--==================== QUALIFICATION 1 ====================-->
+              <div class="qualification__data">
+                <div>
+                  <h3 class="qualification__title">Tecnologia da Informação</h3>
+                  <span class="qualification__subtitle"
+                    > Brazil - Universidade Estadual do Maranhão
+                  </span>
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2012-2014
+                  </div>
+                </div>
+
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+              </div>
+              <!--==================== QUALIFICATION 2 ====================-->
+              <div class="qualification__data">
+                <div></div>
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+                <div>
+                  <h3 class="qualification__title">Power BI</h3>
+                  <span class="qualification__subtitle">
+                    Brazil - INTELLIO
+                  </span>
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2019-2020
+                  </div>
+                </div>
+              </div>
+              <!--==================== QUALIFICATION 3 ====================-->
+              <div class="qualification__data">
+                <div>
+                  <h3 class="qualification__title">Ui Motion</h3>
+                  <span class="qualification__subtitle">
+                    Brazil - FrontPUSH
+                  </span>
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2021-2022
+                  </div>
+                </div>
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+              </div>
+              <!--==================== QUALIFICATION 4 ====================-->
+              <div class="qualification__data">
+                <div></div>
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <!-- <span class="qualification__line"></span> -->
+                </div>
+                <div>
+                  <h3 class="qualification__title">Frontend</h3>
+                  <span class="qualification__subtitle">
+                    Brazil - ORIGAMID
+                  </span>
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2021-2022
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--==================== QUALIFICATION CONTENT 2 ====================-->
+            <div class="qualification__content" data-content id="work">
+              <!--==================== QUALIFICATION 1 ====================-->
+              <div class="qualification__data">
+                <div>
+                  <h3 class="qualification__title">Risk Analytics</h3>
+                  <span class="qualification__subtitle">
+                    Brazil - Equatorial Energia
+                  </span>
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2015-2022
+                  </div>
+                </div>
+
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+              </div>
+              <!--==================== QUALIFICATION 2 ====================-->
+              <div class="qualification__data">
+                <div></div>
+
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <!-- <span class="qualification__line"></span> -->
+                </div>
+
+                <div>
+                  <h3 class="qualification__title">Frontend Developer</h3>
+                  <span class="qualification__subtitle">
+                    Brazil - GMZ Solutions
+                  </span>
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    Present
+                  </div>
+                </div>
+              </div>
+              <!--==================== QUALIFICATION 3 ====================-->
+              <!-- <div class="qualification__data">
+                <div>
+                  <h3 class="qualification__title">Compute Enginner</h3>
+                  <span class="qualification__subtitle">
+                    França - University
+                  </span>
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2109-2014
+                  </div>
+                </div>
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+              </div> -->
+              <!--==================== QUALIFICATION 4 ====================-->
+              <!-- <div class="qualification__data">
+                <div></div>
+                <div>
+                  <span class="qualification__rounder"></span> -->
+                  <!-- <span class="qualification__line"></span> -->
+                <!-- </div> -->
+                <!-- <div>
+                  <h3 class="qualification__title">Master in Ui/Ux</h3>
+                  <span class="qualification__subtitle">
+                    Brazil - University
+                  </span>
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2009-2014
+                  </div>
+                </div>
+              </div> -->
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== CONTACT ME ====================-->
+      <section class="contact section" id="contact">
+        <h2 class="section__title">Contact Me</h2>
+        <span class="section__subtitle">Entre em contato</span>
+
+        <div class="contact__container container grid grid_flex">
+          <div class="contact__content_display">
+            <div class="contact__information">
+              <!-- <i class="uil uil-phone contact__icon"></i> -->
+
+              <!-- <div>
+                <h3 class="contact__title">Call Me</h3>
+                <span class="contact__subtitle">(98) 98140-4029</span>
+              </div> -->
+
+            </div>
+            <div class="contact__information">
+             <i class="uil uil-envelope contact__icon"></i>
+
+              <div>
+                <a href="mailto:junior.almeidadev@gmail.com">
+                  <h3 class="contact__title">Email</h3>
+                </a>
+                <span class="contact__subtitle">junior.almeidadev@gmail.com</span>
+              </div>
+            </div>
+
+            <div class="contact__information">
+              <i class="uil uil-map-marker contact__icon"></i>
+
+              <div>
+                <h3 class="contact__title">Localização</h3>
+                <span class="contact__subtitle">São Luis/MA - Brasil</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- <form action="" class="contact__form grid">
+            <div class="contact__inputs grid">
+              <div class="contact__content">
+                <label for="" class="contact__label">Name</label>
+                <input type="text" class="contact__input">
+              </div>
+              <div class="contact__content">
+                <label for="" class="contact__label">Email</label>
+                <input type="email" class="contact__input">
+              </div>
+            </div>
+            <div class="contact__content">
+              <label for="" class="contact__label">Project</label>
+              <input type="email" class="contact__input">
+            </div>
+            <div class="contact__content">
+              <label for="" class="contact__label">Message</label>
+              <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
+            </div>
+            <div>
+              <a href="mailto:junior.almeidadev@gmail.com"  class="button button--flex">
+                Fala comigo!
+                <i class="uil uil-message button__icon"></i>
+              </a>
+            </div>
+          </form> -->
+        </div>
+      </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+      <div class="footer__bg">
+        <div class="footer__container container grid">
+          <div>
+            <img src="assets/img/Logo JA.svg" alt="" class="img__marca">
+            <h1 class="footer__title"></h1>
+            <span class="footer__subtitle">Frontend developer</span>
+          </div>
+          <ul class="footer__links">
+            <li>
+              <a href="#services" class="footer__link">Services</a>
+            </li>
+            <li>
+              <a href="#portfolio" class="footer__link">Portifolio</a>
+            </li>
+            <li>
+              <a href="#contact" class="footer__link">Contactme</a>
+            </li>
+          </ul>
+          <div class="footer__socials">
+            <a href="https://www.facebook.com/almeida093/"  target="_blank" class="footer__social">
+              <i class="uil uil-facebook-f button__icon"></i>
+            </a>
+            <a href="https://www.instagram.com/_junioralm3ida/" target="_blank"  class="footer__social">
+              <i class="uil uil-instagram button__icon"></i>
+            </a>
+            <a href="https://github.com/Joot4" target="_blank"   class="footer__social">
+              <i class="uil uil-github-alt button__icon"></i>
+            </a>
+          </div>
+        </div>
+        <p class="footer__copy">Junior Almeida © 2023 </p>
+      </div>
+    </footer>
+
+    <!--==================== SCROLL TOP ====================-->
+    <a href="#home" class="scrollup" id="scroll-up">
+      <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
+    <!--==================== SWIPER JS ====================-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--==================== MAIN JS ====================-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
